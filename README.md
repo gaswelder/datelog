@@ -1,0 +1,2 @@
+# datelog
+Small logging utility
