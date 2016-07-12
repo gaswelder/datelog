@@ -16,10 +16,12 @@ The simplest form is:
 
 	process | datelog
 
-Then the output will be stored in files named 'Y-<monthnum>.log'. If we
-need to change files, say, every hour:
+Then the output will be stored in files named 'year-{monthnum}.log'. If
+we need to change files, say, every hour:
 
 	process | datelog -p hour
+
+Then the files will have names 'year-{monthnum}-{hour}.log'.
 
 If we want the glasses put in a specific directory rather than "right
 here", then:
